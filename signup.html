@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Join Cafe Mania</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body class="signup-page">
+    <main class="signup-layout container">
+      <section class="signup-card">
+        <div class="signup-welcome">
+          <a class="signup-brand" href="./index.html">
+            <span><i class="bi bi-cup-hot-fill" aria-hidden="true"></i></span>
+            Cafe Mania
+          </a>
+          <p class="signup-eyebrow">A SEAT AT OUR TABLE</p>
+          <h1>Good things<br />start <span>here.</span></h1>
+          <p class="signup-welcome-text">
+            Sign up for a little more Cafe Mania—fresh favorites, sweet treats,
+            and updates from our cozy corner.
+          </p>
+          <div class="signup-welcome-note">
+            <i class="bi bi-heart-fill" aria-hidden="true"></i>
+            <span>Made fresh, shared with love.</span>
+          </div>
+        </div>
+
+        <div class="signup-form-wrap">
+          <div class="signup-form-heading">
+            <h2>Create your account</h2>
+            <p>We'd love to get to know you.</p>
+          </div>
+
+          <form class="signup-form">
+            <div class="row g-3">
+              <div class="col-sm-6">
+                <label for="firstName" class="form-label">First name</label>
+                <input type="text" class="form-control" id="firstName" name="firstName" placeholder="Your first name" autocomplete="given-name" required />
+              </div>
+              <div class="col-sm-6">
+                <label for="lastName" class="form-label">Last name</label>
+                <input type="text" class="form-control" id="lastName" name="lastName" placeholder="Your last name" autocomplete="family-name" required />
+              </div>
+              <div class="col-12">
+                <label for="email" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="email" name="email" placeholder="you@example.com" autocomplete="email" required />
+              </div>
+              <div class="col-12">
+                <label for="phone" class="form-label">Contact number</label>
+                <input type="tel" class="form-control" id="phone" name="phone" placeholder="Your phone number" autocomplete="tel" />
+              </div>
+              <div class="col-12">
+                <label for="state" class="form-label">State</label>
+                <select class="form-select" id="state" name="state" required>
+                  <option value="" selected disabled>Choose your state</option>
+                  <option value="maharashtra">Maharashtra</option>
+                  <option value="uttar-pradesh">Uttar Pradesh</option>
+                  <option value="kerala">Kerala</option>
+                </select>
+              </div>
+              <fieldset class="col-12">
+                <legend class="form-label">Gender <span>(optional)</span></legend>
+                <div class="signup-gender-options">
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="gender" id="genderMale" value="male" />
+                    <label class="form-check-label" for="genderMale">Male</label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="gender" id="genderFemale" value="female" />
+                    <label class="form-check-label" for="genderFemale">Female</label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="gender" id="genderPreferNotToSay" value="prefer-not-to-say" />
+                    <label class="form-check-label" for="genderPreferNotToSay">Prefer not to say</label>
+                  </div>
+                </div>
+              </fieldset>
+              <div class="col-12">
+                <div class="form-check signup-terms">
+                  <input type="checkbox" class="form-check-input" id="terms" name="terms" required />
+                  <label class="form-check-label" for="terms">I agree to the Terms &amp; Conditions</label>
+                </div>
+              </div>
+              <div class="col-12">
+                <button class="btn signup-submit" type="submit">
+                  Join Cafe Mania <i class="bi bi-arrow-right" aria-hidden="true"></i>
+                </button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </section>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

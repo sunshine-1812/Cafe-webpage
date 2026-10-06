@@ -1,0 +1,273 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Discover fresh coffee, homemade cakes, and Italian favorites at Cafe Mania."
+    />
+    <title>Cafe Mania | Coffee, Cakes &amp; Good Moments</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+
+  <body class="cafe-home">
+    <header class="cafe-header">
+      <nav class="navbar navbar-expand-lg container cafe-nav">
+        <a class="navbar-brand cafe-brand" href="#home">
+          <span class="cafe-brand-icon"><i class="bi bi-cup-hot-fill" aria-hidden="true"></i></span>
+          Cafe <span>Mania</span>
+        </a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#cafeNavigation"
+          aria-controls="cafeNavigation"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="cafeNavigation">
+          <div class="navbar-nav ms-auto align-items-lg-center gap-lg-4">
+            <a class="nav-link" href="#favorites">Our favorites</a>
+            <a class="nav-link" href="#story">Our story</a>
+            <a class="nav-link" href="./cake.html">Cakes</a>
+            <a class="nav-link" href="./italian.html">Italian</a>
+            <a class="nav-link" href="./signup.html">Sign up</a>
+            <a class="cafe-nav-cta" href="#favorites">
+              Explore the menu <i class="bi bi-arrow-up-right" aria-hidden="true"></i>
+            </a>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main id="home">
+      <section class="cafe-hero container">
+        <div class="cafe-hero-copy">
+          <p class="cafe-eyebrow"><span></span> GOOD COFFEE. GOOD COMPANY.</p>
+          <h1>A little pause.<br />A lot of <span>good.</span></h1>
+          <p class="cafe-hero-text">
+            Your cozy corner for freshly brewed coffee, something sweet, and
+            meals worth slowing down for.
+          </p>
+          <div class="cafe-hero-actions">
+            <a class="cafe-button" href="#favorites">
+              Find your favorite <i class="bi bi-arrow-down-right" aria-hidden="true"></i>
+            </a>
+            <a class="cafe-text-link" href="./italian.html">
+              See what's cooking <i class="bi bi-arrow-up-right" aria-hidden="true"></i>
+            </a>
+          </div>
+          <div class="cafe-hero-note">
+            <span class="cafe-note-icon"><i class="bi bi-heart-fill" aria-hidden="true"></i></span>
+            <span><strong>Made fresh, served with care</strong><small>Your happy place for any time of day</small></span>
+          </div>
+        </div>
+
+        <div class="cafe-hero-art">
+          <img
+            src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=1200&q=85"
+            alt="Coffee and a freshly baked pastry on a cafe table"
+          />
+          <div class="cafe-image-stamp"><i class="bi bi-stars" aria-hidden="true"></i><span>YOUR DAILY<br />DOSE OF DELIGHT</span></div>
+          <div class="cafe-image-caption"><i class="bi bi-cup-hot" aria-hidden="true"></i> Made for slow mornings</div>
+        </div>
+      </section>
+
+      <section class="cafe-favorites" id="favorites">
+        <div class="container cafe-section">
+          <div class="cafe-section-heading">
+            <div>
+              <p class="cafe-eyebrow"><span></span> A FEW HOUSE FAVORITES</p>
+              <h2>Good things, <span>made daily.</span></h2>
+            </div>
+            <p>Comforting classics, thoughtful ingredients, and a little something for every craving.</p>
+          </div>
+
+          <div class="row g-3">
+            <div class="col-md-4">
+              <article class="cafe-favorite-card">
+                <div class="cafe-favorite-image">
+                  <img
+                    src="https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=900&q=85"
+                    alt="Freshly brewed cup of coffee"
+                  />
+                  <span class="cafe-category">THE DAILY PICK-ME-UP</span>
+                </div>
+                <div class="cafe-favorite-copy">
+                  <div><h3>Fresh coffee</h3><p>Rich, smooth, and brewed just how you like it.</p></div>
+                  <a href="./signup.html" aria-label="Discover coffee"><i class="bi bi-arrow-up-right"></i></a>
+                </div>
+              </article>
+            </div>
+            <div class="col-md-4">
+              <article class="cafe-favorite-card">
+                <div class="cafe-favorite-image">
+                  <img
+                    src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=900&q=85"
+                    alt="Chocolate cake with decorative frosting"
+                  />
+                  <span class="cafe-category">A LITTLE SOMETHING SWEET</span>
+                </div>
+                <div class="cafe-favorite-copy">
+                  <div><h3>Homemade cakes</h3><p>Soft, sweet slices baked for your happy moments.</p></div>
+                  <a href="./cake.html" aria-label="Explore cakes"><i class="bi bi-arrow-up-right"></i></a>
+                </div>
+              </article>
+            </div>
+            <div class="col-md-4">
+              <article class="cafe-favorite-card">
+                <div class="cafe-favorite-image">
+                  <img
+                    src="https://images.unsplash.com/photo-1473093295043-cdd812d0e601?auto=format&fit=crop&w=900&q=85"
+                    alt="Italian pasta with fresh herbs"
+                  />
+                  <span class="cafe-category">SOMETHING SAVORY</span>
+                </div>
+                <div class="cafe-favorite-copy">
+                  <div><h3>Italian favorites</h3><p>Hearty, comforting dishes to make a meal of.</p></div>
+                  <a href="./italian.html" aria-label="Explore Italian food"><i class="bi bi-arrow-up-right"></i></a>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="cafe-story container" id="story">
+        <div class="cafe-story-image">
+          <img
+            src="https://images.unsplash.com/photo-1445116572660-236099ec97a0?auto=format&fit=crop&w=1100&q=85"
+            alt="Warm and welcoming cafe interior"
+          />
+          <span class="cafe-story-badge"><i class="bi bi-sun-fill" aria-hidden="true"></i> Stay a little longer</span>
+        </div>
+        <div class="cafe-story-copy">
+          <p class="cafe-eyebrow"><span></span> A PLACE TO FEEL GOOD</p>
+          <h2>Come for the coffee.<br /><span>Stay for the feeling.</span></h2>
+          <p>
+            Cafe Mania is all about the little things: a favorite cup, a fresh
+            slice of cake, a meal shared with someone you love. Find your usual
+            or try something new—we'll make you feel right at home.
+          </p>
+          <a class="cafe-button" href="#moments">
+            Take a look around <i class="bi bi-arrow-down-right" aria-hidden="true"></i>
+          </a>
+        </div>
+      </section>
+
+      <section class="cafe-moments container" id="moments">
+        <div class="cafe-section-heading cafe-moments-heading">
+          <div>
+            <p class="cafe-eyebrow"><span></span> SOMETHING TO SAVOR</p>
+            <h2>Little moments, <span>served fresh.</span></h2>
+          </div>
+          <p>A peek at the good stuff waiting for you at Cafe Mania.</p>
+        </div>
+
+        <div
+          id="cafeCarousel"
+          class="carousel slide cafe-carousel"
+          data-bs-ride="carousel"
+          aria-label="Cafe Mania food and drink highlights"
+        >
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#cafeCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#cafeCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#cafeCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#cafeCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+          </div>
+
+          <div class="carousel-inner rounded-4">
+            <div class="carousel-item active">
+              <img
+                src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=1600&q=85"
+                class="d-block w-100"
+                alt="Coffee and pastry ready to enjoy"
+              />
+              <div class="carousel-caption">
+                <span>YOUR COFFEE BREAK</span>
+                <h3>Pour yourself a good day.</h3>
+                <p>Freshly brewed and always worth the pause.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=1600&q=85"
+                class="d-block w-100"
+                alt="Rich chocolate cake for sharing"
+              />
+              <div class="carousel-caption">
+                <span>THE SWEET SIDE</span>
+                <h3>Save room for cake.</h3>
+                <p>Every day is a little better with something sweet.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="https://images.unsplash.com/photo-1473093295043-cdd812d0e601?auto=format&fit=crop&w=1600&q=85"
+                class="d-block w-100"
+                alt="A comforting plate of pasta"
+              />
+              <div class="carousel-caption">
+                <span>MADE FOR THE TABLE</span>
+                <h3>Stay for something savory.</h3>
+                <p>Comforting Italian favorites, made for good company.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="https://images.unsplash.com/photo-1445116572660-236099ec97a0?auto=format&fit=crop&w=1600&q=85"
+                class="d-block w-100"
+                alt="A cozy cafe space ready to welcome guests"
+              />
+              <div class="carousel-caption">
+                <span>YOUR COZY CORNER</span>
+                <h3>There's always room for you.</h3>
+                <p>Drop by, slow down, and make yourself at home.</p>
+              </div>
+            </div>
+          </div>
+
+          <button class="carousel-control-prev" type="button" data-bs-target="#cafeCarousel" data-bs-slide="prev" aria-label="Previous slide">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#cafeCarousel" data-bs-slide="next" aria-label="Next slide">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          </button>
+        </div>
+      </section>
+    </main>
+
+    <footer class="cafe-footer">
+      <div class="container cafe-footer-content">
+        <a class="navbar-brand cafe-brand" href="#home">
+          <span class="cafe-brand-icon"><i class="bi bi-cup-hot-fill" aria-hidden="true"></i></span>
+          Cafe <span>Mania</span>
+        </a>
+        <p>Good coffee, good food, good company.</p>
+        <div class="cafe-footer-links">
+          <a href="./cake.html">Cakes</a>
+          <a href="./italian.html">Italian</a>
+          <a href="./signup.html">Sign up</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
